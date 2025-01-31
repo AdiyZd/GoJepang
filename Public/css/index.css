@@ -1,0 +1,110 @@
+html, * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #07251f !important; 
+    /* #2e7d32 */
+    min-height: 100vh;
+    /* background: linear-gradient(to bottom, #2e7d32, #111111); */
+}
+
+.navbar-brand {
+    size: 24px;
+    font-weight: 800;
+}
+
+.text-center {
+    margin-top: 80px;
+    color: #eaf9e1;
+}
+.I {
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+.I > .costum {
+    font-size: 29x;
+    font-weight: bolder;
+    font-style: italic;
+
+    letter-spacing: -0.03em; /*agar text gak terlalu renggang*/
+}
+
+#Trip {
+    font-family: serif; 
+    font-weight: bolder;
+
+    letter-spacing: 0.05px;
+
+    font-size: 22px;
+}
+
+.container {
+    max-width: 80%;
+}
+
+/* .logo {} */
+
+.container > .card {
+    position: relative;
+
+    width: 50em;
+    height: 30em;
+    padding: 20px;
+}
+
+/* Responsif nya broo */
+/* HP */
+@media (max-width: 768px) {
+    .container {padding: 10em;}
+    .container > .card {
+        width: 90%;
+        padding: 3px;
+        height: auto;
+
+    }
+
+    .bi {
+        margin-top: 1px !important;
+        margin-left: 1px !important;
+    }
+}
+
+.container > .card >.Logo {
+    position: relative;
+    z-index: 0;
+
+    color: #111111;
+    font-weight: bolder;
+    font-family: "Press Start 2p", fantasy, serif;
+}
+
+.bi {
+    position: absolute !important; 
+    z-index: 10 !important;
+
+    margin-top: -1em;
+    margin-left: -0.60em;
+ }
+
+ .img1 {
+    height: 90px;
+    object-fit: cover;
+    padding: 4px;
+ }
+
+ .img2 {
+    height: 90px;
+    object-fit: cover;
+    padding: 4px;
+ }
+
+ .Item1 {
+    font-weight: 600;
+ }
+
+ .Item2 {
+    font-weight: 600;
+ }
