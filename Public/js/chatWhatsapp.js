@@ -31,6 +31,7 @@ document.getElementById('wa').addEventListener('click', function(i) {
     window.open(URL, '_blank')
 });
 
+
 // untuk chat di facebook 
 document.getElementById("fb").addEventListener("click", function(f) {
     f.preventDefault();

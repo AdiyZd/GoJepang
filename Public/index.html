@@ -45,14 +45,46 @@
                       <img id="Fb" src="./icon/facebook-brands-solid.svg" alt="Facebook icon">
                       Facebook
                     </a></li>
-                    <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/direct/t/xyd_adiyzd/" target="_blank">
                       <img id="ig" src="./icon/instagram-brands-solid.svg" alt="Icon Instagram">
                       Instagram
                     </a></li>
-                    <li><a class="dropdown-item" href="#">
+                    <li>
+                      <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#login">
                       <img class="login" id="l1" src="./icon/user-solid.svg" alt="icon">
                     Login
-                    </a></li>
+                    </a>
+                  </li>
+                  <!-- login model -->
+
+                  <!-- MASIH ERROR -->
+
+                  <div class="modal fade" id="login" data-bs-backdrop="static" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <!-- Form login -->
+                          <form>
+                            <div class="mb-3">
+                              <label for="username" class="form-label">Username</label>
+                              <input type="text" class="form-control" id="username" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- end login -->
                     <li>
                       <hr class="dropdown-divider">
                     </li>
