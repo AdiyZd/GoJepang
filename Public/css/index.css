@@ -72,6 +72,18 @@ body {
     }
 }
 
+/* HP SAMSUNG */
+@media (max-width: 360) {
+    .card-img-top {
+        height: 150px;
+        object-fit: cover;
+    }
+    .card-body {
+        padding: 10px;
+    }
+
+}
+
 .container > .card >.Logo {
     position: relative;
     z-index: 0;
