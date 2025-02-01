@@ -4,7 +4,8 @@ html, * {
 }
 
 body {
-    background-color: #07251f !important; 
+    /* background-color: #07251f !important;  */
+    background-color: #89A8B2 !important;
     /* #2e7d32 */
     min-height: 100vh;
     /* background: linear-gradient(to bottom, #2e7d32, #111111); */
@@ -17,8 +18,38 @@ body {
 
 .text-center {
     margin-top: 80px;
-    color: #eaf9e1;
+    /* color: #eaf9e1; */
+    color: #111111;
 }
+
+#Wa {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#Fb {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;   
+}
+
+#ig {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#l1 {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
 .I {
     font-size: 20px;
     margin-left: -20px;
