@@ -16,6 +16,7 @@ function handleScreenChange(e) {
             id2.remove();
         } else {
             alert("gagal menghapus element!");
+            console.log(e)
         }
     } else {
         if (removedElement && !document.getElementById('p1') && !document.getElementById('p2')) {
