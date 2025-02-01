@@ -77,10 +77,12 @@ body {
     .container{
         width: 100%;
     }
+
     .card-img-top {
         height: 150px;
         object-fit: cover;
     }
+
     .card-body {
         padding: 10px;
     }
